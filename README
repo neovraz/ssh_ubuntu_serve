@@ -1,0 +1,7 @@
+script1.sh needs an argument (username) to create a user with default password root.
+
+It should be run in a linux/unix environment as follows:
+
+sudo sh script1.sh [username]
+
+where [username] should be replaced by your desired user_name.
