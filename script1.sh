@@ -20,7 +20,11 @@ sudo adduser --disabled-password --shell /bin/bash --home /home/$new_user --geco
 
 sudo echo "$new_user:$password" | chpasswd
 
+chown -R $new_user /home/$new_user
+
 echo "Password Changed"
+
+
 
 #sudo systemctl status ssh
 #To show ssh status remove '#'
