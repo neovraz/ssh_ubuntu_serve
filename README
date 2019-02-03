@@ -1,7 +1,19 @@
+
+++++++++++This tool is only for creating new ssh users. Using it with existing user arguments will reset passwords++++++++++++
+
+
+Script to create a user with ssh access (Run on Ubuntu server):
+
 script1.sh needs an argument (username) to create a user with default password root.
 
 It should be run in a linux/unix environment as follows:
 
-sudo sh script1.sh [username]
+sudo sh script1.sh [New-Username]
 
-where [username] should be replaced by your desired user_name.
+//Password defaults to root
+
+
+where [New-Username] should be replaced by your desired user_name.
+
+
+//This script also displays the current ssh status at the end

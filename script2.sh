@@ -1,12 +1,17 @@
 #" This is a mini-project challenge accepted by neovraz"
-#" Date:28/07/2018				      "
+#" Date:28/07/2018				       "
 #" The job is to make an ssh based automation to access"
-#" 5 remote Ubuntu systems			      "
-
-
+#" 5 remote Ubuntu systems			       "
+#" Please run this script only on the client side. On s"
+#" ever side to create a user account run script1.sh wi"
+#" th username as a parameter.                         "
+#" eg:- sudo sh script1.sh New-Username		       "
+#" here New-Username is the name of user	       "
 
 #!/bin/bash
 
+
+#Script flags:
 logged_in=0
 entered=0
 num=0;
